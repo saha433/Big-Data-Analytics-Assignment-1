@@ -1,0 +1,112 @@
+
+╔══════════════════════════════════════════════╗
+║   Streaming Data Statistics Simulator       ║
+╚══════════════════════════════════════════════╝
+
+Configure the simulation:
+─────────────────────────
+  Total duration in seconds  [1 – 86400]  (e.g. 3600 = 1 h):   Values generated per second [1 – 1000000](e.g. 100000)   : 
+  Simulation summary:
+    Duration       : 3600 s  (60 min 0 sec)
+    Values/second  : 1000000
+    Total values   : 3600000000
+    Minute windows : 60
+    10-min blocks  : 6
+    Worker threads : 4
+
+  Running simulation... done.
+
+===== PART (a): OVERALL STATISTICS =====
+Overall:              Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.5735
+
+  Expected for U(0,1):
+    Mean   ≈ 0.5000  got 0.5000
+    Median ≈ 0.5000  got 0.5005
+    P25    ≈ 0.2500  got 0.2505
+    P75    ≈ 0.7500  got 0.7505
+    Min    → 0.0000  got 0.0005  (bin-centre lower bound)
+    Max    → 1.0000  got 0.9995  (bin-centre upper bound)
+    Mode is approximate — uniform dist. has no true mode.
+
+===== PART (b): PER-MINUTE ANALYSIS =====
+Interval              Mean     Min      Max      Median   P25      P75      Mode    
+Minute 001:           Mean=0.5001  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.3455
+Minute 002:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.7475
+Minute 003:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7495  Mode=0.5515
+Minute 004:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.3085
+Minute 005:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7285
+Minute 006:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.2555
+Minute 007:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7555
+Minute 008:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2555
+Minute 009:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.4785
+Minute 010:           Mean=0.5001  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Minute 011:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7475
+Minute 012:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7495  Mode=0.2475
+Minute 013:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.3085
+Minute 014:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7285
+Minute 015:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.0515
+Minute 016:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7495  Mode=0.5515
+Minute 017:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.7915
+Minute 018:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7285
+Minute 019:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.0515
+Minute 020:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7555
+Minute 021:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2555
+Minute 022:           Mean=0.4999  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.4785
+Minute 023:           Mean=0.5001  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Minute 024:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7475
+Minute 025:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7495  Mode=0.2475
+Minute 026:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.3085
+Minute 027:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.4475
+Minute 028:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.0515
+Minute 029:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7555
+Minute 030:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.3045
+Minute 031:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.5585
+Minute 032:           Mean=0.5001  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Minute 033:           Mean=0.4999  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.4035
+Minute 034:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2475
+Minute 035:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.7915
+Minute 036:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7495  Mode=0.4475
+Minute 037:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.2285
+Minute 038:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7555
+Minute 039:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2555
+Minute 040:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.0415
+Minute 041:           Mean=0.5001  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Minute 042:           Mean=0.4999  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.4785
+Minute 043:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2475
+Minute 044:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7475
+Minute 045:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7495  Mode=0.8085
+Minute 046:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2555
+Minute 047:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7555
+Minute 048:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Minute 049:           Mean=0.4999  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.4785
+Minute 050:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2475
+Minute 051:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7475
+Minute 052:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2915
+Minute 053:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.2285
+Minute 054:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2505  P75=0.7495  Mode=0.7555
+Minute 055:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2495  P75=0.7505  Mode=0.2555
+Minute 056:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.8045
+Minute 057:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Minute 058:           Mean=0.4999  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.4785
+Minute 059:           Mean=0.5001  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.0055
+Minute 060:           Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7475
+
+===== 10-MINUTE BLOCK ANALYSIS =====
+Interval              Mean     Min      Max      Median   P25      P75      Mode    
+Min 001-010:          Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2475
+Min 011-020:          Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7505  Mode=0.4405
+Min 021-030:          Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.2555
+Min 031-040:          Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.5585
+Min 041-050:          Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.5005  P25=0.2505  P75=0.7505  Mode=0.9785
+Min 051-060:          Mean=0.5000  Min=0.0005  Max=0.9995  Median=0.4995  P25=0.2495  P75=0.7495  Mode=0.7475
+
+===== PART (c): IQR & OUTLIER ANALYSIS =====
+IQR          : 0.5000
+Lower fence  : -0.4995  (Q1 - 1.5 × IQR)
+Upper fence  : 1.5005  (Q3 + 1.5 × IQR)
+Outlier range: values < -0.4995  OR  > 1.5005
+Outlier count: 0  (0.000000% of 3600000000 values)
+  => Tukey fences fall outside [0,1]: zero outliers expected.
+     Confirms perfectly uniform distribution.
+
+CSV files saved to /tmp/ — run plot_boxplots.py for box plots.

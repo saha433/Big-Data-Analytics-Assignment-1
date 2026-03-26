@@ -1,0 +1,18 @@
+Q4: Median of Medians
+Distribution   : Uniform
+Total Elements : 10^9 = 1000000000
+Range          : -2^30 to 2^30
+Threads        : 8
+
+Local median estimates per thread:
+  Thread 0 -> median estimate: -1048576
+  Thread 1 -> median estimate: -1048576
+  Thread 2 -> median estimate: -1048576
+  Thread 3 -> median estimate: -1048576
+  Thread 4 -> median estimate: -1048576
+  Thread 5 -> median estimate: 1048576
+  Thread 6 -> median estimate: 1048576
+  Thread 7 -> median estimate: 1048576
+
+Median of Medians              : -1048576
+True Median (histogram estimate): -1048576

@@ -1,0 +1,11 @@
+Q2: Dot Product and Cross Product
+Distribution  : Uniform {-1, 0, 1}
+Vector Size   : 10^10 = 10000000000
+Threads Used  : 8
+
+Dot Product : 165136
+
+Cross Product (first 3 elements sample)
+  v1 = [1, 0, -1]
+  v2 = [-1, 0, 0]
+  v1 x v2 = (0, 1, 0)

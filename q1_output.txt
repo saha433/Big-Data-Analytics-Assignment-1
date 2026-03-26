@@ -1,0 +1,8 @@
+Q1: Min, Max, Mean
+Distribution : Uniform {0, 1, ..., 10^9}
+Total Elements: 2^40 = 1099511627776
+Threads Used : 8
+
+Minimum : 0
+Maximum : 1000000000
+Mean    : 500016406.194421
